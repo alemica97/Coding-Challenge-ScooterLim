@@ -1,0 +1,87 @@
+body{
+  background-image: url(background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  background: rgba(0,0,0,0.5); /* così posso dare un colore e un'opacità allo sfondo*/
+  border-radius: 25px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.logo{
+  width: 250px;
+  display:block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.logo-text{
+  color: #00DD00;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+}
+
+nav{
+  background-color: #00DD00;
+  border-radius: 1px;
+  padding: 10px;
+  width: 1050px;
+  margin: auto;
+  text-align: center;
+}
+
+/* do a tutte le sezione la stessa distanza con padding-left */
+main > section{
+  color: white;
+  padding-left: 65px;
+}
+
+/* uso inline-block poichè h2 essendo di tipo blocco non potrebbe stare nella stessa riga della checkbox */
+.nome_monopattino{
+  display: inline-block;
+  margin-bottom: 0;
+
+}
+
+.arrow:before{
+    content: "\2192"
+}
+
+.carica:after{
+  content: ":"
+}
+
+/* uso dei selettori avanzati per dare a più classi le stesse caratteristiche */
+.Carica_Monopattino_1, .Carica_Monopattino_2, .Carica_Monopattino_3{
+  height: 30px;
+  border-radius: 5px;
+}
+
+.Carica_Monopattino_1{
+  width: 300px;
+  background-color: #F5B453;
+
+}
+
+.Carica_Monopattino_2{
+  width: 500px;
+  background-color: #1EC31E;
+}
+
+.Carica_Monopattino_3{
+  width: 160px;
+  background-color: #BE4141;
+}
+
+main{
+  padding-bottom: 100px;
+}
